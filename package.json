@@ -1,6 +1,6 @@
 {
   "name": "vue-fixed-type",
-  "version": "1.0.28-1",
+  "version": "1.0.28-2",
   "author": "Shu Pan <shupan123@163.com>",
   "license": "MIT",
   "description": "Simple, Fast & Composable MVVM for building interactive interfaces",
