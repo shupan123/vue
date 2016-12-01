@@ -410,22 +410,23 @@ function coerceProp (prop, value, vm) {
 function assertType (value, type) {
   var valid
   var expectedType
-  if (type === String) {
+  var name = type.name
+  if (name === 'String') {
     expectedType = 'string'
     valid = typeof value === expectedType
-  } else if (type === Number) {
+  } else if (name === 'Number') {
     expectedType = 'number'
     valid = typeof value === expectedType
-  } else if (type === Boolean) {
+  } else if (name === 'Boolean') {
     expectedType = 'boolean'
     valid = typeof value === expectedType
-  } else if (type === Function) {
+  } else if (name === 'Function') {
     expectedType = 'function'
     valid = typeof value === expectedType
-  } else if (type === Object) {
+  } else if (name === 'Object') {
     expectedType = 'object'
     valid = isPlainObject(value)
-  } else if (type === Array) {
+  } else if (name === 'Array') {
     expectedType = 'array'
     valid = isArray(value)
   } else {
