@@ -1,8 +1,6 @@
-#
-Vue Fixed Type
+# Vue Fixed Type
 
-##
-修复引入babel-polyfill导致Number被覆写，引起props中的Number类型检测错误的问题
+> 修复引入babel-polyfill导致Number被覆写，引起props中的Number类型检测错误的问题
 
 ## Intro
 
