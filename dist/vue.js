@@ -1,5 +1,5 @@
 /*!
- * Vue.js v1.0.28-1
+ * Vue.js v1.0.28-3
  * (c) 2016 Evan You
  * Released under the MIT License.
  */
